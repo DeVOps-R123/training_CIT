@@ -159,6 +159,7 @@ WantedBy=multi-user.target
 
 Install java 8
 ----------------
+apt-get update
 sudo apt-get install openjdk-8-jdk -y
 
 
