@@ -157,6 +157,11 @@ Restart=on-abort
 [Install]
 WantedBy=multi-user.target
 
+Install java 8
+----------------
+sudo apt-get install openjdk-8-jdk -y
+
+
 12) Now Start Nexus
      sudo systemctl enable nexus
      sudo systemctl start nexus
